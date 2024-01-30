@@ -1,0 +1,161 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+
+#__nuxt .v-application {
+    background: #f4f6f7;
+}
+.color-primary {
+    color: #159ca9;
+}
+a,
+.v-btn {
+    cursor: pointer;
+}
+
+p {
+    color: rgba(30, 39, 50, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+span {
+    text-transform: none;
+}
+
+.v-input--density-default .v-field__input {
+    min-height: 38px;
+}
+
+.v-text-field .v-input__details {
+    display: none;
+}
+
+.v-overlay__scrim {
+    background-color: rgba(30, 39, 50, .8) !important;
+    opacity: 1 !important;
+}
+
+.v-btn--disabled,
+.v-input--disabled {
+    cursor: not-allowed;
+    pointer-events: stroke !important;
+}
+
+.textGrey {
+    color: rgba(30, 39, 50, .5);
+}
+
+.outlined {
+    border: 1px solid rgba(30,39,50,.12);
+}
+
+.v-field__input {
+    padding: 0;
+}
+
+.v-tab__slider {
+    opacity: 0 !important;
+}
+.settings_main .v-btn__content,
+.v-list-item .v-btn__content{
+    margin: 0 8px !important;
+}
+.buttonPrimary {
+    background-color: #19bcc9 !important;
+    color: #fff !important;
+    transition: 0.25s;
+}
+.buttonPrimary:hover {
+    background-color: #159ca9;
+  }
+.dialog_content {
+    max-width: 964px;
+    width: 90%;
+    height: auto;
+    border-radius: 16px !important;
+    margin: 0 auto;
+}
+
+.v-btn__prepend {
+    margin-inline: 0 !important;
+}
+
+#workspace-id {
+    width: 100%;
+    height: 46px;
+    margin: 0;
+    outline: none;
+    border: 1px solid rgba(30, 39, 50, 0.12);
+    border-radius: 4px;
+    background-color: #fff;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: #1e2732;
+    font-size: 16px;
+    font-weight: 400;
+    transition-duration: 0.3s;
+    transition-property: border-color, box-shadow;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#workspace-id::placeholder {
+    color: #ccc;
+}
+
+#workspace-id:focus,
+#workspace-id:focus {
+    box-shadow: 0 0 0 3px rgba(25, 188, 201, .2), inset 0 0 0 1px #19bcc9 !important;
+}
+.v-stepper-header {
+    display: block;
+    overflow-x: hidden;
+  }
+.step_bar {
+    border-top: 4px solid rgba(30, 39, 50, 0.12);
+    min-width: 33%;
+}
+
+.v-stepper-item {
+    padding: 8px !important;
+}
+
+.v-stepper-item__avatar.v-avatar {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.v-stepper-item--selected .v-stepper-item__avatar.v-avatar,
+.v-stepper-item--complete .v-stepper-item__avatar.v-avatar {
+    background: #19bcc9 !important;
+}
+
+// Checkouts 
+.main_container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.v-sheet {
+    background: none !important;
+}
+
+
+
+.navbar_container .v-btn--size-default,
+.btn-size {
+    min-width: 32px !important;
+    height: 32px !important;
+    padding: 4px !important;
+}
+
+// variant="outlined"
+.v-btn.v-btn--variant-outlined {
+    border: 1px solid rgba(30, 39, 50, 0.12);
+    background-color: transparent;
+}
+
+
