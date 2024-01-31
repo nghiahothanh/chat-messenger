@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as _}from"./entry.d1f47a4e.js";const s={};function c(o,a,n,r,p,d){return _(),t("div",null," chat Messenger ")}const l=e(s,[["render",c],["__scopeId","data-v-6f1e4931"]]);export{l as default};
