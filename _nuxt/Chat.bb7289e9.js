@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./entry.7104a1bc.js";const _={name:"ChatPage"};function s(c,n,o,r,p,d){return a(),t("div",null," chat Messenger ")}const l=e(_,[["render",s],["__scopeId","data-v-80e88fa1"]]);export{l as default};
